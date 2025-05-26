@@ -1,5 +1,8 @@
-INSERT INTO cities(name, country, population, longitude, latitude)
-VALUES
-('São Paulo', 'Brasil', 12300000, -46.6333, -23.5505),
-('Rio de Janeiro', 'Brasil', 6748000, -43.2094, -22.9111),
-('Buenos Aires', 'Argentina', 2891000, -58.4173, -34.6118);
+-- Mini-dataset de 6 filmes
+INSERT INTO filmes VALUES
+(1, 'O Poderoso Chefão', 'Francis Ford Coppola', 1972, 'Drama'),
+(2, 'Matrix', 'Lana Wachowski', 1999, 'Ficção Científica'),
+(3, 'Clube da Luta', 'David Fincher', 1999, 'Drama'),
+(4, 'Pulp Fiction', 'Quentin Tarantino', 1994, 'Crime'),
+(5, 'Interestelar', 'Christopher Nolan', 2014, 'Ficção Científica'),
+(6, 'Cidade de Deus', 'Fernando Meirelles', 2002, 'Drama');

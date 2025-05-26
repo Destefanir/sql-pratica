@@ -1,6 +1,14 @@
-Dicas de como reproduzir os exercícios
+## Como reproduzir os exercícios
 
-1. Instale um banco SQLite o use o DB Fiddle (https://www.db-fiddle.com/)
-2. Copie todo o conteúdo de 'schema.sql' para criar as tabelas
-3. (Opcional) Cole também o 'data.sql' para popular os dados
-4. Execute os arquivos de '01_select.sql' até '06_join.sql' dentro do editor
+1. Instale o SQLite (Linux/macOS: `sudo apt install sqlite3` • Windows: baixe de https://www.sqlite.org).
+2. Crie o banco e carregue os dados:
+   ```bash
+   sqlite3 filmes.db < schema.sql
+   sqlite3 filmes.db < data.sql
+
+
+
+   1. Descrição curta do projeto.
+2. “Como rodar” com Workbench ou CLI:
+bash<br>mysql -u root -p < schema.sql<br>mysql -u root -p < data.sql<br>mysql -u root -p sql_pratica < exercises/01_consultas_basicas.sql<br>
+3. Screenshot do SELECT * FROM filmes; (opcional, mas forte).
