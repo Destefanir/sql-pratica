@@ -1,8 +1,5 @@
 /*  Maior nota por filme:
-
-Para cada filme que possui avaliações, mostre o titulo do filme e a maior nota que ele já recebeu.
-
-Dica: Use JOIN e a função MAX() agrupada pelo filme.*/
+Para cada filme que possui avaliações, mostre o titulo do filme e a maior nota que ele já recebeu.*/
 
 SELECT f.titulo, MAX(a.nota) AS maior_nota
 FROM filmes as f

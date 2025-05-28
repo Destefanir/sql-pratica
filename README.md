@@ -70,7 +70,13 @@ sql-pratica/
     ├── 03_order_by.sql
     ├── 04_groupby.sql
     ├── 05_limit.sql
-    └── 06_join.sql
+    ├── 06_join.sql
+    ├── 07_media_notas.sql
+    ├── 08_contagem.sql
+    ├── 09_min_max_anos.sql
+    ├── 10_filmes_por_diretor.sql
+    ├── 11_busca_por_titulo.sql
+    └── 12_maior_nota.sql
 ```  
 
 ---
