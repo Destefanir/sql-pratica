@@ -64,7 +64,7 @@ sql-pratica/
 ├── schema.sql          # Estrutura do banco
 ├── data.sql            # Dados de exemplo
 ├── README.md
-└── exercises/          # Consultas de prática
+└── Exercicios/          # Consultas de prática
     ├── 01_select.sql
     ├── 02_where.sql
     ├── 03_order_by.sql
